@@ -1,0 +1,15 @@
+export const GET_USER_LOGIN_SUCCESS = 'GET_USER_LOGIN_SUCCESS';
+export const GET_USER_LOGIN_ONSUBMIT = 'GET_USER_LOGIN_ONSUBMIT';
+export const GET_USER_LOGIN_FAILURE = 'GET_USER_LOGIN_FAILURE';
+export const LOGIN_REMOVE_ALERT = 'LOGIN_REMOVE_ALERT';
+export const LOGIN_UPDATE_USERDATA = 'LOGIN_REMOVE_ALERT';
+
+export const GET_USER_SIGNUP_SUCCESS = 'GET_USER_SIGNUP_SUCCESS';
+export const GET_USER_SIGNUP_ONSUBMIT = 'GET_USER_SIGNUP_ONSUBMIT';
+export const GET_USER_SIGNUP_FAILURE = 'GET_USER_SIGNUP_FAILURE';
+export const SIGNUP_REMOVE_ALERT = 'LOGIN_REMOVE_ALERT';
+
+
+export const SERVER_HOST = 'http://localhost:8080'; 
+export const SERVER_LOGIN_API = '/api/login?userName=userNameValue&password=passwordValue';  
+export const SERVER_SIGNUP_API = '/api/signup'
